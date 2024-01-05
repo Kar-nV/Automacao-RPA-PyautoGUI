@@ -7,7 +7,7 @@
  1. Python: Certifique-se de ter o Python instalado em seu sistema. Você pode baixá-lo em python.org.
  2. Bibliotecas Python: As bibliotecas necessárias são openpyxl, pyperclip e pyautogui. Você pode instalá-las utilizando o comando:
     
-  ``` pip install openpyxl pyperclip pyautogui```
+      ``` pip install openpyxl pyperclip pyautogui```
 
 ### Como Usar
 
