@@ -4,15 +4,15 @@
 
 ### Pré-requisitos
 
-    Python: Certifique-se de ter o Python instalado em seu sistema. Você pode baixá-lo em python.org.
-    Bibliotecas Python: As bibliotecas necessárias são openpyxl, pyperclip e pyautogui. Você pode instalá-las utilizando o comando:
-
-    pip install openpyxl pyperclip pyautogui
+ 1. Python: Certifique-se de ter o Python instalado em seu sistema. Você pode baixá-lo em python.org.
+ 2. Bibliotecas Python: As bibliotecas necessárias são openpyxl, pyperclip e pyautogui. Você pode instalá-las utilizando o comando:
+    
+  ``` pip install openpyxl pyperclip pyautogui```
 
 ### Como Usar
 
-    Planilha de Produtos: Certifique-se de ter uma planilha chamada produtos_ficticios.xlsx no mesmo diretório do script, com a estrutura esperada.
-    Execução do Script: Execute o script Python. Ele abrirá a planilha, lerá os dados e os inserirá nos campos correspondentes do site.
+ - Planilha de Produtos: Certifique-se de ter uma planilha chamada produtos_ficticios.xlsx no mesmo diretório do script, com a estrutura esperada.
+ - Execução do Script: Execute o script Python. Ele abrirá a planilha, lerá os dados e os inserirá nos campos correspondentes do site.
 
 ### Funcionamento do Script
 
@@ -27,7 +27,7 @@
 
 ### Observações
 
-    Este script foi projetado para um contexto específico e pode necessitar de ajustes conforme as particularidades do site ou da planilha utilizada.
+- Este script foi projetado para um contexto específico e pode necessitar de ajustes conforme as particularidades do site ou da planilha utilizada.
     Certifique-se de ajustar as coordenadas de clique (pyautogui.click()) de acordo com a interface do seu site.
     Recomenda-se testar o script em um ambiente de teste antes de aplicá-lo a dados reais.
 
