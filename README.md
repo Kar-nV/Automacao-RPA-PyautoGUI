@@ -1,34 +1,34 @@
-Automatização de Atualização de Produtos - Script Python
+# Automatização de Atualização de Produtos - Script Python
 
-Este script em Python foi desenvolvido para automatizar a atualização de produtos em um site desktop a partir de uma planilha Excel. O processo envolve copiar dados específicos da planilha e colá-los nos campos correspondentes do site usando a biblioteca pyautogui.
+## Este script em Python foi desenvolvido para automatizar a atualização de produtos em um site desktop a partir de uma planilha Excel. O processo envolve copiar dados específicos da planilha e colá-los nos campos correspondentes do site usando a biblioteca pyautogui.
 
-Pré-requisitos
+- Pré-requisitos
 
     Python: Certifique-se de ter o Python instalado em seu sistema. Você pode baixá-lo em python.org.
     Bibliotecas Python: As bibliotecas necessárias são openpyxl, pyperclip e pyautogui. Você pode instalá-las utilizando o comando:
 
     pip install openpyxl pyperclip pyautogui
 
-Como Usar
+- Como Usar
 
     Planilha de Produtos: Certifique-se de ter uma planilha chamada produtos_ficticios.xlsx no mesmo diretório do script, com a estrutura esperada.
     Execução do Script: Execute o script Python. Ele abrirá a planilha, lerá os dados e os inserirá nos campos correspondentes do site.
 
-Funcionamento do Script
+### Funcionamento do Script
 
-O script realiza as seguintes etapas:
+- O script realiza as seguintes etapas:
 
-    Leitura da Planilha: Abre a planilha produtos_ficticios.xlsx e seleciona a aba 'Produtos'.
-    Atualização de Campos no Site: Itera sobre cada linha da planilha, copia os dados e cola nos campos correspondentes do site.
-    Cliques e Atalhos: Utiliza cliques do mouse e atalhos do teclado (ctrl + v) para inserir as informações.
-    Tratamento Específico: Trata especificamente o campo 'tamanho', clicando em posições diferentes com base no valor na planilha.
-    Conclusão e Navegação: Clica em botões 'Próximo' e 'Concluir' no site para avançar nas etapas.
-    Finalização do Processo: Realiza cliques adicionais para finalizar o processo de atualização.
+    1. Leitura da Planilha: Abre a planilha produtos_ficticios.xlsx e seleciona a aba 'Produtos'.
+    2. Atualização de Campos no Site: Itera sobre cada linha da planilha, copia os dados e cola nos campos correspondentes do site.
+    3. Cliques e Atalhos: Utiliza cliques do mouse e atalhos do teclado (ctrl + v) para inserir as informações.
+    4. Tratamento Específico: Trata especificamente o campo 'tamanho', clicando em posições diferentes com base no valor na planilha.
+    5. Conclusão e Navegação: Clica em botões 'Próximo' e 'Concluir' no site para avançar nas etapas.
+    6. Finalização do Processo: Realiza cliques adicionais para finalizar o processo de atualização.
 
-Observações
+- Observações
 
     Este script foi projetado para um contexto específico e pode necessitar de ajustes conforme as particularidades do site ou da planilha utilizada.
     Certifique-se de ajustar as coordenadas de clique (pyautogui.click()) de acordo com a interface do seu site.
     Recomenda-se testar o script em um ambiente de teste antes de aplicá-lo a dados reais.
 
-Nota: Este script é apenas um projeto para portifólio e seus dados são dados fictícios apenas para aprendizado.
+**Nota: Este script é apenas um projeto para portifólio e seus dados são dados fictícios apenas para aprendizado.**
