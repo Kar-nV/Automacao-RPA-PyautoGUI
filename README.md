@@ -1,6 +1,11 @@
 # Automatização de Atualização de Produtos - Script Python
 
+
+
 ## Este script em Python foi desenvolvido para automatizar a atualização de produtos em um site desktop a partir de uma planilha Excel. O processo envolve copiar dados específicos da planilha e colá-los nos campos correspondentes do site usando a biblioteca pyautogui.
+
+
+
 
 ### Pré-requisitos
 
