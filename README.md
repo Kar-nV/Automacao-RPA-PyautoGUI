@@ -38,4 +38,4 @@
     Certifique-se de ajustar as coordenadas de clique (pyautogui.click()) de acordo com a interface do seu site.
     Recomenda-se testar o script em um ambiente de teste antes de aplicá-lo a dados reais.
 
-### **Nota: Este script é apenas um projeto para portifólio baseado no video do Youtuber Dev Aprender | Jhonathan de Souza e seus dados são dados fictícios apenas para aprendizado.**
+ **Nota: Este script é apenas um projeto para portifólio baseado no video do Youtuber Dev Aprender | Jhonathan de Souza e seus dados são dados fictícios apenas para aprendizado.**
