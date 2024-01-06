@@ -11,8 +11,10 @@
 
  1. Python: Certifique-se de ter o Python instalado em seu sistema. Você pode baixá-lo em python.org.
  2. Bibliotecas Python: As bibliotecas necessárias são openpyxl, pyperclip e pyautogui. Você pode instalá-las utilizando o comando:
+
     
       ``` pip install openpyxl pyperclip pyautogui```
+ 3. Abra o seguinte site <https://cadastro-produtos-devaprender.netlify.app/> ao lado do editor de código, divindo a tela onde o navegador fica do lado esquerdo e o editor de código no lado direto.
 
 ### Como Usar
 
@@ -36,4 +38,4 @@
     Certifique-se de ajustar as coordenadas de clique (pyautogui.click()) de acordo com a interface do seu site.
     Recomenda-se testar o script em um ambiente de teste antes de aplicá-lo a dados reais.
 
-### **Nota: Este script é apenas um projeto para portifólio e seus dados são dados fictícios apenas para aprendizado.**
+### **Nota: Este script é apenas um projeto para portifólio baseado no video do Youtuber Dev Aprender | Jhonathan de Souza e seus dados são dados fictícios apenas para aprendizado.**
