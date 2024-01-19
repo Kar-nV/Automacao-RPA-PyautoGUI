@@ -1,4 +1,4 @@
-# Automatização de Atualização de Produtos - Script Python
+# Automatização de Atualização de Produtos
 
 
 
